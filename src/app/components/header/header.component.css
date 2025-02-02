@@ -1,0 +1,53 @@
+.nav-link, .dropdown-item {
+    position: relative; /* Required for pseudo-elements */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect for navbar links */
+.nav-link:hover, .dropdown-item:hover {
+    color: #101c3d; /* Change text color on hover */
+}
+
+/* Adding a glowing underline effect */
+.nav-link::after, .dropdown-item::after {
+    content: ""; /* Empty content for pseudo-element */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align it to the left */
+    right: 0; /* Align it to the right */
+    bottom: -4px; /* Position it below the text */
+    height: 2px; /* Thickness of the underline */
+    background: #0d47e6; /* Color of the underline */
+    transform: scaleX(0); /* Scale down to hide */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+}
+
+/* Show the underline on hover */
+.nav-link:hover::after, .dropdown-item:hover::after {
+    transform: scaleX(1); /* Scale to full width on hover */
+}
+
+/* Optional: Add a background color on hover */
+.nav-link:hover, .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* For dropdown menu items */
+.dropdown-menu .dropdown-item {
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Change background for dropdown items on hover */
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background for dropdown items */
+}
+
+.navbar-brand-heading{
+    font-family: "Montserrat", serif;
+    font-size: 1.4rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff
+}

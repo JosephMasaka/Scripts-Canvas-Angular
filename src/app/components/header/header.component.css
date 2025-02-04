@@ -4,6 +4,11 @@
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
+.nav-link {
+    font-weight: 600;
+    font-size: 14px;
+}
+
 /* Hover effect for navbar links */
 .nav-link:hover, .dropdown-item:hover {
     color: #101c3d; /* Change text color on hover */
@@ -47,7 +52,16 @@
     font-family: "Montserrat", serif;
     font-size: 1.4rem;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 800;
     font-style: normal;
-    color: #fff
+    color: grey
 }
+
+.navbar-light {
+    background-color: #fff;
+    color: #000;
+}
+
+/* .nav-item {
+    font-weight: 600;
+} */

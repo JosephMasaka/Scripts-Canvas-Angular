@@ -1,0 +1,11 @@
+.info, .phone, .mail {
+    font-size: 14px;
+}
+
+.contact-info p{
+    margin: 0;
+}
+
+.text-secondary{
+    color: rgba(0, 0, 0, .6);
+}

@@ -6,11 +6,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { HostingPackagesComponent } from '../../components/hosting-packages/hosting-packages.component';
 import { ValuePropositionComponent } from '../../components/value-proposition/value-proposition.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HomeShowcaseComponent, HeaderInfoComponent, ServicesComponent, CommonModule, RouterModule, HostingPackagesComponent, ValuePropositionComponent],
+  imports: [HomeShowcaseComponent, HeaderInfoComponent, ServicesComponent, CommonModule, RouterModule, HostingPackagesComponent, ValuePropositionComponent, FooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

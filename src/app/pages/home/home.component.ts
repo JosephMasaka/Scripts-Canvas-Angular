@@ -5,11 +5,12 @@ import { ServicesComponent } from '../../components/services/services.component'
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { HostingPackagesComponent } from '../../components/hosting-packages/hosting-packages.component';
+import { ValuePropositionComponent } from '../../components/value-proposition/value-proposition.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HomeShowcaseComponent, HeaderInfoComponent, ServicesComponent, CommonModule, RouterModule, HostingPackagesComponent],
+  imports: [HomeShowcaseComponent, HeaderInfoComponent, ServicesComponent, CommonModule, RouterModule, HostingPackagesComponent, ValuePropositionComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

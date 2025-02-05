@@ -1,0 +1,153 @@
+/* General Section Styling */
+.price-section {
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Title Styling */
+.dashboard-head {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+.p-header {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Decorative Line */
+.span-blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-short, .blue-long {
+    height: 4px;
+    border-radius: 5px;
+}
+
+.blue-short {
+    width: 40px;
+    background-color: #007bff;
+    margin-right: 5px;
+}
+
+.blue-long {
+    width: 80px;
+    background-color: #0056b3;
+}
+
+/* Price Cards */
+.price-card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    padding: 25px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.price-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Unique Backgrounds */
+.price-1 {
+    background: linear-gradient(135deg, #ffd700, #ffcc00);
+}
+
+.price-2 {
+    background: linear-gradient(135deg, #c0c0c0, #b3b3b3);
+}
+
+.price-3 {
+    background: linear-gradient(135deg, #cd7f32, #b87333);
+}
+
+/* Price Badge */
+.price-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #007bff;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* Price Text */
+.p-price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2c3e50;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Feature List */
+.list-unstyled li {
+    font-size: 1rem;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+/* Feature Icons */
+.theme-avtar i {
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+.btn-light {
+    background: #ffffff;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.btn-light:hover {
+    background: #007bff;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-head {
+        font-size: 2rem;
+    }
+
+    .p-header {
+        font-size: 1rem;
+    }
+
+    .price-card {
+        margin-bottom: 20px;
+    }
+}
